@@ -1,28 +1,28 @@
 class Fearlezz < Formula
   desc "Proof for work done by AI agents"
   homepage "https://github.com/fearlezz-dev/fearlezz"
-  version "0.5.2"
+  version "0.5.3"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/fearlezz-dev/fearlezz/releases/download/v0.5.2/fearlezz-aarch64-apple-darwin.tar.gz"
-      sha256 "6425dfa032fcb24227b5481dfde4bda56d899307deca8f40cccea482ade992b3"
+      url "https://github.com/fearlezz-dev/fearlezz/releases/download/v0.5.3/fearlezz-aarch64-apple-darwin.tar.gz"
+      sha256 "5b8465e982600c805eb56a9036904e6a497a0609e7e2b604e08346468329082d"
     end
     on_intel do
-      url "https://github.com/fearlezz-dev/fearlezz/releases/download/v0.5.2/fearlezz-x86_64-apple-darwin.tar.gz"
-      sha256 "9038116aa687081b0f45a6d8c7c8499e627ea79fdb41ba429307e7c8866ef3c7"
+      url "https://github.com/fearlezz-dev/fearlezz/releases/download/v0.5.3/fearlezz-x86_64-apple-darwin.tar.gz"
+      sha256 "d0d0f92eca9790cdfd8fecc86edcf5d7ca999f04531199302df6a7bb45ad348f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fearlezz-dev/fearlezz/releases/download/v0.5.2/fearlezz-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "1e0c454f179ed74498eaa786d01b54ed534644937db5a771e24bf8445491bd25"
+      url "https://github.com/fearlezz-dev/fearlezz/releases/download/v0.5.3/fearlezz-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "077e0dd1f6eb91337e40693b030f5921e032f98ec27c9e85e41ff5e57f85dc4a"
     end
     on_intel do
-      url "https://github.com/fearlezz-dev/fearlezz/releases/download/v0.5.2/fearlezz-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "65a72efaef3d10d5b70e85f0cc691e11676d8813e4ea8ac0ae99611e55567149"
+      url "https://github.com/fearlezz-dev/fearlezz/releases/download/v0.5.3/fearlezz-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "8699a8c7cc893e57ee524f9d3789cf98dac4b8eb943cfa7e0fd4ba9ca68d2252"
     end
   end
 
